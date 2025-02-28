@@ -20,7 +20,7 @@ const ContactUs = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post(`${API_BASE_URL}/feedback`, formData);
+            const response = await axios.post(`${API_BASE_URL}/feedback/submit`, formData);
             alert(response.data.message || "Feedback submitted successfully!");
             setFormData({ name: "", email: "", message: "" });
         } catch (error) {

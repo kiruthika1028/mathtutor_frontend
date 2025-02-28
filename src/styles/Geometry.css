@@ -1,0 +1,90 @@
+.aimath-container {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    margin: 0;
+}
+
+.aimath-container h1,
+.aimath-container p,
+.geometry-content h2,
+.geometry-content p {
+    color: white;
+}
+
+.aimath-container h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.geometry-content {
+    margin: 20px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.15);
+    width: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+button {
+    background: linear-gradient(90deg, #ff8c00, #ff0080);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    width: auto;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #ff6a00, #e60073);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.canvas-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+canvas {
+    border: 2px solid #333;
+    background: white;
+}
+
+nav {
+    background: none;
+    color: white;
+    padding: 0;
+}

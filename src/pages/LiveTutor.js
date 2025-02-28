@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/LiveTutor.css'; // Create this CSS file
+import '../styles/LiveTutor.css'; // Assuming you have this CSS file
 
 const LiveTutor = () => {
     const [phoneNumber, setPhoneNumber] = useState('');

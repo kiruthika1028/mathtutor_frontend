@@ -25,19 +25,18 @@ const LoginSignup = () => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
-    const handleSubmit = async () => {
-        // e.preventDefault();
-        const endpoint = isSignup ? "/register" : "/login";
+    const handleSubmit = async (e) => {
+      e.preventDefault();
+      const endpoint = isSignup ? "/auth/register" : "/auth/login";
 
-        try {
-            const response = await axios.post(`${API_BASE_URL}${endpoint}`, formData);
-            console.log(`${API_BASE_URL}${endpoint}`)
-            console.log(response.data.message);
-            // if (!isSignup) navigate("/home"); // Redirect after login
-        } catch (error) {
-            alert(error.response?.data?.message || "An error occurred");
-        }
-    };
+      try {
+          const response = await axios.post(`${API_BASE_URL}${endpoint}`, formData);
+          navigate("/home"); // Redirect after login
+      } catch (error) {
+          alert(error.response?.data?.message || "An error occurred");
+      }
+  };
+
 
     return (
         <div className="login-container">

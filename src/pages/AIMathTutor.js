@@ -23,7 +23,7 @@ const AIMathTutor = () => {
                 </div>
                 <div className="feature-box">
                     <h2>Image Search</h2>
-                    <p>Find and explore images using AI-powered search.</p>
+                    <p>Find and solve images using AI-powered search.</p>
                     <button onClick={() => navigate('/image-search')}>Upload Image</button>
                 </div>
                 <div className="feature-box">
