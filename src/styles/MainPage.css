@@ -1,0 +1,105 @@
+/* Container Styling */
+.home-container {
+    text-align: center;
+    background: url("https://i.pinimg.com/736x/bc/cf/61/bccf6192aa85c6fe078e1324aa5ba8a3.jpg") 
+                    no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0;
+}
+
+/* Navigation Bar - Aligned in a Row with Separate Boxes */
+.navbar {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Increased gap for better spacing */
+}
+
+/* Navbar Button Boxes - More Vibrant Styles */
+.navbar button {
+    padding: 14px 25px; /* Slightly larger padding */
+    font-size: 1.1rem; /* Slightly larger font */
+    font-weight: 600; /* Medium font weight for better readability */
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Vibrant gradient background */
+    color: white;
+    border: none; /* Removed white border */
+    border-radius: 25px; /* More rounded corners */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    width: auto; /* Adjust width to content */
+    min-width: 120px; /* Minimum width to prevent collapsing */
+    height: 55px; /* Increased height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow for depth */
+    text-transform: uppercase; /* Uppercase for a bolder look */
+}
+
+/* Hover Effect - More Dynamic */
+.navbar button:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Increased shadow on hover */
+}
+
+/* Active State (Optional, for current page highlighting) */
+.navbar button.active {
+    background: linear-gradient(135deg, #ff6a00, #ee0979); /* Different active color */
+    transform: translateY(0); /* Remove lift effect when active */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow when active */
+}
+
+/* Main Content */
+.content {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 3.5rem; /* Increased font size */
+    font-weight: 700; /* Stronger font weight */
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+}
+
+p {
+    font-size: 1.6rem; /* Increased font size */
+    margin-bottom: 30px;
+    line-height: 1.6; /* Improved readability */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+}
+
+/* Get Started Button */
+.get-started-btn {
+    padding: 16px 35px; /* Increased padding */
+    font-size: 1.2rem; /* Increased font size */
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(90deg, #ff8c00, #ff0080);
+    border: none;
+    border-radius: 30px; /* More rounded corners */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.get-started-btn:hover {
+    background: linear-gradient(90deg, #ff6a00, #e60073);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}

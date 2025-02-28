@@ -1,0 +1,35 @@
+.ar-container {
+    text-align: center;
+    padding: 50px;
+    background: #f5f5f5;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .ar-container h1 {
+    color: #ff5733;
+    font-size: 2.5rem;
+  }
+  
+  .ar-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .download-btn {
+    background: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .download-btn:hover {
+    background: #d84315;
+  }
+  

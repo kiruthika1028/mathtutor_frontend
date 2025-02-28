@@ -1,0 +1,99 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://img.freepik.com/premium-photo/education-robot-assisting-with-science-math-learning-showcase-benefits-using-technology-education-enhancing-learning-outcomes_38013-10659.jpg") 
+                    no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Container */
+.login-container {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 40px; /* Increased padding */
+    background: rgba(255, 255, 255, 0.2); /* Slightly less transparent */
+    backdrop-filter: blur(12px); /* Increased blur */
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+}
+
+/* Form Box */
+.form-box {
+    width: 100%;
+}
+
+h2 {
+    color: #333; /* Darker color */
+    font-size: 2.5rem; /* Increased font size */
+    font-weight: 600; /* Bolder font */
+    margin-bottom: 20px; /* Increased margin */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 15px; /* Increased padding */
+    margin: 12px 0; /* Increased margin */
+    border: none; /* Removed border */
+    border-radius: 8px; /* More rounded corners */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle inset shadow */
+    font-size: 1rem; /* Increased font size */
+    background: rgba(255, 255, 255, 0.8); /* Slightly less transparent */
+    transition: box-shadow 0.3s ease;
+}
+
+input:focus {
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.2); /* Enhanced focus shadow */
+    outline: none;
+}
+
+/* Button */
+.btn {
+    width: 60%; /* Increased width */
+    padding: 15px 30px; /* Increased padding */
+    font-size: 1.1rem; /* Increased font size */
+    font-weight: 600; /* Bolder font */
+    background: linear-gradient(90deg, #ff8c00, #ff0080); /* Vibrant gradient */
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px; /* More rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Added shadow */
+    margin-top: 15px; /* Add margin to button */
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #ff6a00, #e60073); /* Hover gradient */
+    transform: translateY(-5px); /* Lift effect */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Enhanced hover shadow */
+}
+
+/* Toggle Mode */
+.switch-mode {
+    margin-top: 20px; /* Increased margin */
+    color: #555; /* Darker color */
+    font-size: 1rem; /* Increased font size */
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.switch-mode:hover {
+    color: #ff8c00; /* Hover color */
+}

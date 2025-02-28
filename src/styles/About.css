@@ -1,0 +1,79 @@
+/* Main Container */
+.about-container {
+    text-align: center;
+    padding: 50px 20px;
+    color: white; /* Ensures all text inside is white */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #162447; /* Dark blue background */
+}
+
+/* Title Styling */
+.about-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white; /* Ensures the main title is white */
+}
+
+/* Subtitle Styling */
+.about-container p {
+    font-size: 1.3rem;
+    max-width: 800px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+    color: white; /* Ensures the paragraph text is white */
+}
+
+/* Section Title (Fixes 'Why Choose AI Math Tutor?' not being white) */
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white !important; /* Ensures section titles like 'Why Choose AI Math Tutor?' are white */
+}
+
+/* Feature Section */
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+}
+
+/* Feature Box Styling */
+.feature-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 20px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 230px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+    border: 2px solid white; /* White border */
+    color: white; /* White text */
+}
+
+/* Hover effect */
+.feature-box:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: white; /* Still White */
+    transform: translateY(-5px);
+}
+
+/* Feature Icon */
+.feature-box span {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: normal;
+    margin-top: 5px;
+    opacity: 0.8;
+    color: white; /* White text */
+}

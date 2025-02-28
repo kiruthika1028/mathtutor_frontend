@@ -1,0 +1,63 @@
+.chatbot-page-container {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatbot-page-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.chatbot-page-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.passkey-text {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffc107; /* Highlight the passkey */
+}
+
+.access-chatbot-btn {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(90deg, #ff8c00, #ff0080);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.access-chatbot-btn:hover {
+    background: linear-gradient(90deg, #ff6a00, #e60073);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.back-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
