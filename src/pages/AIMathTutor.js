@@ -32,8 +32,8 @@ const AIMathTutor = () => {
                     <button onClick={() => navigate('/live-tutor')}>Chat Now</button>
                 </div>
                 <div className="feature-box">
-                    <h2>Performance Analysis</h2>
-                    <p>Get AI-driven insights on your strengths and weaknesses.</p>
+                    <h2>Geometry Solver</h2>
+                    <p>Solve geometry problems instantly with AI-powered 2D diagrams!</p>
                     <button onClick={() => navigate('/performance-analysis')}>Try Now</button>
                 </div>
             </div>
